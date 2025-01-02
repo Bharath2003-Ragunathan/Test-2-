@@ -15,7 +15,7 @@ function App() {
       <div className='head'>
         <label htmlFor="term">
           {/* htmlFor connecting id in input fields */}
-          Guess the number
+          Guess the number between 1 to 10
         </label>
       </div>
       <input id="term" type="text" name="term" onChange={handleChange} />
